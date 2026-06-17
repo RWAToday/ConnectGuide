@@ -1,0 +1,198 @@
+# Connect United Guide — Full Content
+
+> An independent educational resource explaining Connect United, the WIN Blockchain, and the Learn2Earn model. Not affiliated with Connect United. Not financial advice. All statistics verifiable via independent blockchain explorers.
+
+---
+
+## What Is Connect United?
+
+Connect United is a blockchain education and participation platform built on the WIN Blockchain, a live Layer-1 network with over 1.88 million blocks produced and 33,600+ wallet addresses. Its core model: members learn about blockchain through structured education, complete verified participation cycles, earn NFT credentials recorded permanently on-chain, and node owners vote on how the network grows.
+
+The platform is not a passive yield scheme and was not funded by an ICO. Revenue comes from node product sales (BlockBot and Droid), platform subscriptions, and an ecosystem of partner brands. Token distribution is through Proof of Action — demonstrated participation — not capital holdings.
+
+### The Learn → Earn → Govern loop
+
+1. **Learn** — Access the Blockchain Academy (self-paced, no reward) or the weekly Learn2Earn lesson (blockchain, AI, RWA tokenization, DeFi topics)
+2. **Verify** — Pass a comprehension quiz and complete a related action step
+3. **Earn** — Receive an NFT credential permanently recorded on the WIN Blockchain — a verifiable on-chain record, not a database entry
+4. **Govern** — BlockBot node owners vote on reward parameters, community pool allocations, and halving schedules through the DGF Charter
+
+### Key verification sources (independent, third-party)
+
+- WIN Blockchain explorer: https://win.elevatescan.com
+- WIN ERC-20 on Ethereum: https://etherscan.io/token/0xb10cb07ca2cdac77fbb5707f6690301f9d036f45
+- Governance documents: https://win.node-governance.io
+- Member reviews: https://www.trustpilot.com/review/connectunited.com
+- Market sentiment: https://coinmarketcap.com/currencies/connect-united/
+- Official platform: https://connectunited.com
+
+---
+
+## How Nodes Work
+
+A node on the WIN Blockchain is a participation product — either a BlockBot or a Droid — that represents an account's place in the network and its eligibility to earn rewards through Proof of Action.
+
+### BlockBot vs Droid
+
+**BlockBot** — Primary node tier. Weekly Learn2Earn access (52 lesson cycles per year). Full governance voting rights under the DGF Charter. Votes on reward parameters and community pool allocations.
+
+**Droid** — Entry-level node. Monthly Learn2Earn access (12 cycles per year). Participates in the Proof of Action reward model.
+
+Neither node type requires managing server hardware. The network infrastructure is operated by Connect United and its node community.
+
+### Proof of Action
+
+Proof of Action (PoA) is the WIN Blockchain's consensus and reward model. Unlike Proof of Work (rewards computation) or Proof of Stake (rewards holdings), Proof of Action rewards demonstrated participation. To earn rewards, participation must be verified — not just claimed.
+
+### Reward mechanics
+
+- WIN token hard cap: 50 billion (no additional issuance possible)
+- Reward rates: set by node owner governance votes, not by management unilaterally
+- Emission schedule: built-in halving mechanisms reduce rates over time; changes require governance vote
+- Rewards: distributed in WIN tokens to node owner wallets
+- All parameters verifiable at: https://win.node-governance.io
+
+---
+
+## Governance: The Distributed Governance Framework
+
+The Distributed Governance Framework (DGF) is the formal governance system for the WIN Blockchain. It defines what node owners vote on, how proposals are submitted, and how decisions are recorded on-chain.
+
+### What gets voted on
+
+- Reward parameters (rate of WIN distribution through Proof of Action)
+- Community pool allocations (how a portion of token supply is directed)
+- Halving schedule adjustments (changes to emission reduction timeline)
+- Platform direction (broader strategic network decisions)
+
+### How it works
+
+BlockBot owners hold voting rights. Proposals are submitted through the governance portal, reviewed against the Charter's eligibility criteria, put to a node owner vote, and implemented if approved. Outcomes are logged on-chain. The Charter is publicly available at https://win.node-governance.io.
+
+Governance is operational — not just described in a whitepaper. Past decisions are auditable. Reward parameters cannot be changed unilaterally by Connect United's management.
+
+---
+
+## Learn2Earn: The Complete Model
+
+Learn2Earn is Connect United's weekly rewarded education program. Each week, a new lesson is posted. The cycle:
+
+1. Watch or read the lesson (blockchain, AI, RWA tokenization, DeFi, Web4 topics)
+2. Complete a short comprehension quiz
+3. Take a related action step
+4. Submit verification
+5. Receive an NFT credential on the WIN Blockchain
+
+### NFT credentials
+
+Each completed Learn2Earn cycle produces an NFT on the WIN Blockchain — a permanent, independently verifiable record of participation. These credentials cannot be deleted by Connect United or anyone else. They exist on the public blockchain and belong to the wallet that earned them.
+
+### Access tiers
+
+- BlockBot: weekly access (up to 52 credentials per year)
+- Droid: monthly access (up to 12 credentials per year)
+
+### Topics covered
+
+- Blockchain fundamentals (wallets, transactions, consensus, security)
+- AI and automation
+- Real-world asset (RWA) tokenization
+- Decentralized finance (DeFi)
+- Web4 and decentralized systems
+
+### Blockchain Academy (separate from Learn2Earn)
+
+The Blockchain Academy is a self-paced library of educational content with no reward attached. It covers wallets, crypto basics, decentralized exchanges, and online safety. It is the entry point for people new to blockchain — designed to build comprehension before participation.
+
+---
+
+## Wallet and WIN Token Rewards
+
+### WIN token basics
+
+- Hard cap: 50 billion WIN (fixed, verified on-chain)
+- Distribution: Proof of Action (participation earns tokens; passive holding does not)
+- Emission: built-in halving schedule; changes require governance vote
+- Two forms: WIN Layer-1 (native) and WIN ERC-20 (Ethereum bridge)
+
+### WIN Layer-1 vs WIN ERC-20
+
+**WIN Layer-1**: Native token on the WIN Blockchain. Used for governance voting and earned through Proof of Action. Held in WIN L1-compatible wallets. Visible at win.elevatescan.com.
+
+**WIN ERC-20**: WIN bridged to the Ethereum network. Accessible through standard Ethereum wallets (MetaMask etc). Visible on Etherscan. Contract: 0xb10cb07ca2cdac77fbb5707f6690301f9d036f45. 10,240+ holders.
+
+The bridge converts between the two forms at 1:1.
+
+### Verifying wallet activity
+
+- WIN L1: https://win.elevatescan.com (search wallet address)
+- WIN ERC-20: https://etherscan.io/token/0xb10cb07ca2cdac77fbb5707f6690301f9d036f45
+- Reward parameters: https://win.node-governance.io
+
+---
+
+## Security, Risk, and Independent Verification
+
+### How to verify Connect United without trusting anyone's word
+
+Everything material about Connect United is independently verifiable:
+
+| Claim | Verification source |
+|---|---|
+| Blockchain exists and produces blocks | win.elevatescan.com |
+| 33,600+ L1 wallet addresses | win.elevatescan.com |
+| ERC-20 contract and 10,240+ holders | Etherscan (contract above) |
+| 50B token hard cap | WIN blockchain explorer |
+| Governance framework exists | win.node-governance.io |
+| 96 reviews, 4.8 stars | trustpilot.com/review/connectunited.com |
+| 98% bullish, 7,900+ votes | coinmarketcap.com/currencies/connect-united |
+| Domain legitimacy | scamadviser.com |
+
+### Standard crypto red flags assessment
+
+- Anonymous team: No — founders and leadership are publicly identified
+- No verifiable blockchain: No — WIN chain is publicly verifiable at win.elevatescan.com
+- ICO-funded with heavy insider allocation: No — funded through product sales, not ICO
+- Guaranteed returns: No — rewards depend on participation, governance, and market value
+- Unauditable tokenomics: No — 50B cap verifiable on-chain; DGF Charter is public
+- No independent coverage: No — covered by CoinTrust, Crypto Economy, New York Herald
+
+### Real risks to understand
+
+- **Price volatility**: WIN token value fluctuates with crypto market conditions
+- **Regulatory risk**: Crypto regulation varies by jurisdiction and is actively evolving
+- **Platform risk**: Technology platforms can experience outages or policy changes
+- **Governance risk**: Node owner votes could change reward parameters unfavorably
+- **Liquidity risk**: WIN may have lower liquidity than major cryptocurrencies
+
+### Scam identification
+
+Connect United's name is used by scammers. Genuine red flags:
+- Any site other than connectunited.com claiming to be the official platform
+- Requests for private keys, seed phrases, or wallet passwords
+- Promises of guaranteed WIN returns for an upfront fee
+- Requests to send crypto to "unlock" or "activate" an account
+- Unofficial support channels in Telegram or WhatsApp
+
+Official support: https://support.connectunited.com
+Official links: https://linktr.ee/connect.win
+
+---
+
+## Support
+
+Official Connect United support channels:
+
+- **Primary support portal**: https://support.connectunited.com
+- **Community Discord**: https://discord.com/invite/5YN72nWNW2 (5,879+ members)
+- **Official platform**: https://connectunited.com
+- **All official links**: https://linktr.ee/connect.win
+- **Official blog**: https://medium.com/@connect.win
+
+connectunited.guide is an independent educational resource with no access to Connect United's platform systems. For account-specific issues, always use the official channels above.
+
+---
+
+## Disclaimer
+
+connectunited.guide is an independent informational site. It is not affiliated with, endorsed by, or operated by Connect United. Nothing on this site constitutes financial, investment, or legal advice. Participation in blockchain platforms involves risk, including potential loss of funds. WIN token prices are volatile. Always verify information independently using the blockchain explorers and governance documents linked throughout this site.

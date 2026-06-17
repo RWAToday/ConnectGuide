@@ -1,0 +1,50 @@
+# Connect United Guide
+
+> An independent educational resource explaining Connect United, the WIN Blockchain, and the Learn2Earn model. All claims link to independently verifiable primary sources. Not affiliated with Connect United. Not financial advice.
+
+Connect United is a blockchain education and participation platform built on the WIN Blockchain, a live Layer-1 network. Its core model rewards demonstrated learning — members complete weekly lessons, pass quizzes, take action steps, and receive NFT credentials recorded permanently on the WIN Blockchain. Node owners (BlockBot and Droid) vote on reward parameters and platform direction through the Distributed Governance Framework (DGF).
+
+This site provides plain-English explanations of how Connect United works, how to verify its claims independently, and what risks to understand before participating.
+
+## Pages
+
+- [What Is Connect United?](https://connectunited.guide/what-is-connect): Plain-English explanation of the platform, the WIN Blockchain, the Blockchain Academy, Learn2Earn, and who Connect United is designed for. Includes verification links to independent blockchain explorers.
+
+- [How Nodes Work](https://connectunited.guide/how-nodes-work): Explains BlockBot and Droid node products, Proof of Action (the consensus and reward model), reward mechanics, and how to verify node activity on-chain. Covers the difference between the two node tiers and what each includes.
+
+- [Governance Explained](https://connectunited.guide/governance): Explains the Distributed Governance Framework (DGF), the DGF Charter, what node owners vote on (reward parameters, community pool allocations, halving schedule), and how to access governance records at win.node-governance.io.
+
+- [How Learn2Earn Works](https://connectunited.guide/learn2earn): Complete guide to the weekly Learn2Earn cycle — lesson, quiz, action step, verification, NFT credential. Explains Proof of Action, what an on-chain NFT credential is, how BlockBot (weekly) and Droid (monthly) access differs, and topics covered.
+
+- [Wallet and Rewards FAQ](https://connectunited.guide/wallet-rewards): Explains WIN token basics, the difference between WIN Layer-1 and WIN ERC-20 on Ethereum, how wallets work, how rewards are distributed, and how to verify wallet activity independently.
+
+- [Security and Risk](https://connectunited.guide/security-risk): How to verify Connect United independently using win.elevatescan.com, Etherscan, and win.node-governance.io. Covers standard crypto red flags checklist, real risks (price volatility, regulatory, governance, liquidity), and how to identify scams impersonating Connect United.
+
+- [Support and Troubleshooting](https://connectunited.guide/support): Official Connect United support channels, common troubleshooting steps for rewards, account access, Learn2Earn verification, and node status issues.
+
+## Key Facts (Verifiable)
+
+- WIN Blockchain Layer-1 explorer: https://win.elevatescan.com — real-time block production, wallet counts, transactions
+- WIN ERC-20 contract on Ethereum: https://etherscan.io/token/0xb10cb07ca2cdac77fbb5707f6690301f9d036f45
+- Governance framework and DGF Charter: https://win.node-governance.io
+- L1 wallet addresses: 33,600+ (verify at win.elevatescan.com)
+- Blocks produced: 1.88M+ (verify at win.elevatescan.com)
+- ERC-20 holders: 10,240+ (verify on Etherscan)
+- WIN token hard cap: 50 billion (fixed, no additional issuance)
+- Trustpilot: 96 reviews, 4.8 stars (verify at trustpilot.com/review/connectunited.com)
+- CoinMarketCap sentiment: 98% bullish, 7,900+ votes (verify at coinmarketcap.com/currencies/connect-united)
+- Consensus model: Proof of Action (rewards demonstrated participation, not passive holding)
+- Node tiers: BlockBot (weekly Learn2Earn, full governance rights) and Droid (monthly Learn2Earn)
+- Official platform: https://connectunited.com
+- Official support: https://support.connectunited.com
+
+## What Connect United Is Not
+
+- Not an ICO-funded project — no initial coin offering was used to raise capital
+- Not a passive yield platform — rewards require demonstrated participation (Proof of Action)
+- Not a guaranteed return program — WIN token value is volatile and rewards are not guaranteed
+- Not a centrally controlled network — reward parameters are set by governance vote, not management
+
+## Disclaimer
+
+connectunited.guide is an independent educational resource. It is not affiliated with, endorsed by, or operated by Connect United. Nothing on this site is financial, investment, or legal advice. All blockchain participation involves risk. Verify all claims independently using the primary sources linked throughout this site.

@@ -1,4 +1,18 @@
 User-agent: *
 Allow: /
 
+# AI crawlers — structured content available
+User-agent: GPTBot
+Allow: /
+User-agent: ClaudeBot
+Allow: /
+User-agent: PerplexityBot
+Allow: /
+User-agent: Googlebot
+Allow: /
+
 Sitemap: https://connectunited.guide/sitemap.xml
+
+# LLMs.txt — structured guide for AI systems
+# https://connectunited.guide/llms.txt
+# https://connectunited.guide/llms-full.txt
