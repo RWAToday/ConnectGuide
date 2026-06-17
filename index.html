@@ -1,0 +1,401 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Connect United — What Is It, How It Works, and How to Verify It</title>
+  <meta name="description" content="An independent educational guide to Connect United and the WIN Blockchain. Learn how Learn2Earn works, how nodes operate, how governance functions, and how to verify everything yourself.">
+  <meta name="robots" content="index, follow">
+  <link rel="canonical" href="https://connectunited.guide/">
+
+  <!-- Open Graph -->
+  <meta property="og:title" content="Connect United — An Independent Educational Guide">
+  <meta property="og:description" content="What is Connect United? How does Learn2Earn work? How do nodes generate rewards? Answers with verifiable sources.">
+  <meta property="og:type" content="website">
+  <meta property="og:url" content="https://connectunited.guide/">
+
+  <!-- Structured Data: Organization -->
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "WebSite",
+    "name": "Connect United Guide",
+    "url": "https://connectunited.guide/",
+    "description": "An independent educational resource about Connect United, the WIN Blockchain, and the Learn2Earn model.",
+    "potentialAction": {
+      "@type": "SearchAction",
+      "target": "https://connectunited.guide/search?q={search_term_string}",
+      "query-input": "required name=search_term_string"
+    }
+  }
+  </script>
+
+  <!-- Structured Data: FAQ -->
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "FAQPage",
+    "mainEntity": [
+      {
+        "@type": "Question",
+        "name": "What is Connect United?",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "Connect United is a blockchain education and participation platform built on the WIN Blockchain, a live Layer-1 network. Members learn about blockchain through the Blockchain Academy and weekly Learn2Earn program, earn NFT credentials for verified participation, and node owners vote on how the network grows through the Distributed Governance Framework."
+        }
+      },
+      {
+        "@type": "Question",
+        "name": "Is Connect United legitimate?",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "The WIN Blockchain is publicly verifiable on win.elevatescan.com. The ERC-20 token contract is auditable on Etherscan. Governance documents are publicly available at win.node-governance.io. Connect United has 96 reviews on Trustpilot averaging 4.8 stars and 98% bullish sentiment across 7,900+ CoinMarketCap votes. This is not financial advice — always do your own research."
+        }
+      },
+      {
+        "@type": "Question",
+        "name": "How does Learn2Earn work?",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "Each week a new lesson is posted covering blockchain, AI, or RWA topics. Members watch or read the lesson, complete a short quiz, take a related action step, and submit verification. Completion is recorded as an NFT on the WIN Blockchain. BlockBot owners access weekly lessons; Droid owners access a monthly lesson."
+        }
+      },
+      {
+        "@type": "Question",
+        "name": "What is the WIN token supply?",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "WIN has a fixed maximum supply of 50 billion tokens. Distribution occurs through Proof of Action — network participation rather than passive holding. Built-in halving mechanisms govern emission schedules, with changes requiring governance votes by node owners under the Distributed Governance Framework."
+        }
+      }
+    ]
+  }
+  </script>
+
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+<!-- ── NAV ── -->
+<nav class="site-nav" aria-label="Main navigation">
+  <div class="nav-inner">
+    <a href="/" class="nav-logo" aria-label="Connect United Guide home">
+      <div class="nav-logomark" aria-hidden="true">C</div>
+      <span class="nav-wordmark">Connect United Guide</span>
+    </a>
+    <div class="nav-links">
+      <a href="what-is-connect.html">What is Connect?</a>
+      <a href="how-nodes-work.html">Nodes</a>
+      <a href="governance.html">Governance</a>
+      <a href="learn2earn.html">Learn2Earn</a>
+      <a href="wallet-rewards.html">Wallet &amp; Rewards</a>
+      <a href="security-risk.html">Security</a>
+      <a href="support.html">Support</a>
+    </div>
+    <a href="https://connectunited.com" class="nav-cta" target="_blank" rel="noopener">Visit Platform →</a>
+    <button class="nav-mobile-toggle" aria-label="Open menu">☰</button>
+  </div>
+</nav>
+
+<!-- ── HERO ── -->
+<section class="hero">
+  <div class="hero-eyebrow">WIN Blockchain · Learn2Earn · Decentralized Governance</div>
+  <h1>The blockchain built on <em>education,</em><br>not hype</h1>
+  <p class="hero-sub">Connect United rewards participation, runs on a live Layer-1 blockchain, and puts network decisions in the hands of node owners. This guide explains how — with verifiable sources for every claim.</p>
+  <div class="hero-actions">
+    <a href="what-is-connect.html" class="btn-primary">Start here: What is Connect? →</a>
+    <a href="how-nodes-work.html" class="btn-ghost">How nodes work →</a>
+  </div>
+  <div class="hero-stats" role="region" aria-label="Connect United network statistics">
+    <div class="hero-stat">
+      <div class="stat-num">33,600+</div>
+      <div class="stat-label">L1 Wallet Addresses</div>
+    </div>
+    <div class="hero-stat">
+      <div class="stat-num">1.88M</div>
+      <div class="stat-label">Blocks Produced</div>
+    </div>
+    <div class="hero-stat">
+      <div class="stat-num">98%</div>
+      <div class="stat-label">Bullish on CMC</div>
+    </div>
+    <div class="hero-stat">
+      <div class="stat-num">50B</div>
+      <div class="stat-label">WIN Token Hard Cap</div>
+    </div>
+  </div>
+</section>
+
+<!-- ── CLUSTER NAV ── -->
+<nav class="cluster-nav" aria-label="Topic navigation">
+  <div class="cluster-nav-inner">
+    <a href="what-is-connect.html" class="cluster-tab">What is Connect?</a>
+    <a href="how-nodes-work.html" class="cluster-tab">How nodes work</a>
+    <a href="governance.html" class="cluster-tab">Governance</a>
+    <a href="learn2earn.html" class="cluster-tab">Learn2Earn</a>
+    <a href="wallet-rewards.html" class="cluster-tab">Wallet &amp; Rewards</a>
+    <a href="security-risk.html" class="cluster-tab">Security &amp; Risk</a>
+    <a href="support.html" class="cluster-tab">Support</a>
+  </div>
+</nav>
+
+<!-- ── WHAT IS SECTION ── -->
+<section class="section" style="background: var(--bg);">
+  <div class="section-inner">
+    <div class="section-label">What is Connect United?</div>
+    <h2 class="section-h2">A blockchain platform where participation is the product</h2>
+    <p class="section-lead">Connect United runs the WIN Blockchain — a live Layer-1 network with node operators worldwide. Its model: members learn, complete verified actions, earn on-chain credentials, and node owners govern how the network evolves.</p>
+    <div class="card-grid-2">
+      <div class="card">
+        <div class="card-icon green" aria-hidden="true">🎓</div>
+        <h3>Learn2Earn</h3>
+        <p>Weekly lessons on blockchain, AI, and RWA tokenization. Complete the lesson, pass a quiz, take an action step — earn an NFT credential recorded permanently on the WIN Blockchain.</p>
+        <a href="learn2earn.html" class="card-link">How Learn2Earn works →</a>
+      </div>
+      <div class="card">
+        <div class="card-icon purple" aria-hidden="true">🗳️</div>
+        <h3>Node Governance</h3>
+        <p>Node owners vote on reward parameters, community pool allocations, and platform direction through the Distributed Governance Framework. All governance documents are publicly available.</p>
+        <a href="governance.html" class="card-link">Governance explained →</a>
+      </div>
+      <div class="card">
+        <div class="card-icon blue" aria-hidden="true">🔗</div>
+        <h3>WIN Blockchain</h3>
+        <p>A live Layer-1 blockchain with over 1.88 million blocks produced. Also bridged to Ethereum as an ERC-20. Independently verifiable on win.elevatescan.com and Etherscan. Fixed supply: 50 billion WIN tokens.</p>
+        <a href="how-nodes-work.html" class="card-link">About the WIN chain →</a>
+      </div>
+      <div class="card">
+        <div class="card-icon teal" aria-hidden="true">📚</div>
+        <h3>Blockchain Academy</h3>
+        <p>Self-paced courses covering wallets, crypto basics, decentralized exchanges, and online safety. Designed for people with no prior blockchain knowledge — the entry point before Learn2Earn.</p>
+        <a href="what-is-connect.html#academy" class="card-link">About the Academy →</a>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ── HOW IT WORKS ── -->
+<section class="how-section">
+  <div class="how-inner">
+    <div class="how-label">How it works</div>
+    <h2 class="how-h2">The Learn → Earn → Govern loop</h2>
+    <p class="how-lead">Every part of the Connect model connects back to verified participation. Here is the full cycle.</p>
+    <div class="loop" role="list">
+      <div class="loop-step" role="listitem">
+        <div class="loop-num">Step 1</div>
+        <div class="loop-title">Learn</div>
+        <div class="loop-desc">Access the Blockchain Academy or the weekly Learn2Earn lesson. Topics rotate through blockchain fundamentals, AI, real-world asset tokenization, and decentralized finance.</div>
+        <span class="loop-tag">Blockchain Academy</span>
+      </div>
+      <div class="loop-arrow" aria-hidden="true">→</div>
+      <div class="loop-step" role="listitem">
+        <div class="loop-num">Step 2</div>
+        <div class="loop-title">Verify</div>
+        <div class="loop-desc">Pass a short quiz. Complete a relevant action step. Submit verification. This is "Proof of Action" — knowledge must be demonstrated, not just claimed.</div>
+        <span class="loop-tag">Proof of Action</span>
+      </div>
+      <div class="loop-arrow" aria-hidden="true">→</div>
+      <div class="loop-step" role="listitem">
+        <div class="loop-num">Step 3</div>
+        <div class="loop-title">Earn</div>
+        <div class="loop-desc">Receive an NFT credential — a permanent, on-chain record of participation on the WIN Blockchain. A verifiable credential, not a loyalty point or a redeemable coupon.</div>
+        <span class="loop-tag">NFT Credential</span>
+      </div>
+      <div class="loop-arrow" aria-hidden="true">→</div>
+      <div class="loop-step" role="listitem">
+        <div class="loop-num">Step 4</div>
+        <div class="loop-title">Govern</div>
+        <div class="loop-desc">Node owners vote on reward parameters and community pool allocations through the DGF Charter. Decisions are binding and publicly logged on-chain.</div>
+        <span class="loop-tag">DGF Charter</span>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ── TRUST BAND ── -->
+<div class="trust-band" role="region" aria-label="Verification links">
+  <div class="trust-inner">
+    <div class="trust-item"><div class="trust-dot" aria-hidden="true"></div>Blockchain: <a href="https://win.elevatescan.com" target="_blank" rel="noopener" style="color:var(--text-mid); font-weight:500; margin-left:4px;">win.elevatescan.com</a></div>
+    <div class="trust-item"><div class="trust-dot" aria-hidden="true"></div>ERC-20: <a href="https://etherscan.io/token/0xb10cb07ca2cdac77fbb5707f6690301f9d036f45" target="_blank" rel="noopener" style="color:var(--text-mid); font-weight:500; margin-left:4px;">Etherscan</a></div>
+    <div class="trust-item"><div class="trust-dot" aria-hidden="true"></div>Governance: <a href="https://win.node-governance.io" target="_blank" rel="noopener" style="color:var(--text-mid); font-weight:500; margin-left:4px;">win.node-governance.io</a></div>
+    <div class="trust-item"><div class="trust-dot" aria-hidden="true"></div>96 reviews · 4.8★ Trustpilot</div>
+    <div class="trust-item"><div class="trust-dot" aria-hidden="true"></div>98% bullish · CoinMarketCap</div>
+  </div>
+</div>
+
+<!-- ── TOPIC GRID ── -->
+<section class="section" style="background: var(--surface);">
+  <div class="section-inner">
+    <div class="section-label">Education hub</div>
+    <h2 class="section-h2">Browse by topic</h2>
+    <p class="section-lead">Each section is a self-contained explainer. Start wherever you have a question.</p>
+    <div class="card-grid-3">
+      <a href="what-is-connect.html" class="card" style="text-decoration:none; display:block;">
+        <div class="card-icon green" aria-hidden="true">🔍</div>
+        <h3>What is Connect United?</h3>
+        <p>What the platform does, who it is for, and how it differs from typical crypto projects.</p>
+        <div class="card-count">6 articles</div>
+      </a>
+      <a href="how-nodes-work.html" class="card" style="text-decoration:none; display:block;">
+        <div class="card-icon blue" aria-hidden="true">⚡</div>
+        <h3>How nodes work</h3>
+        <p>BlockBot vs. Droid, reward mechanics, what node ownership means in practice.</p>
+        <div class="card-count">8 articles</div>
+      </a>
+      <a href="governance.html" class="card" style="text-decoration:none; display:block;">
+        <div class="card-icon purple" aria-hidden="true">🗳️</div>
+        <h3>Governance explained</h3>
+        <p>The DGF Charter, how proposals work, what node owners actually vote on.</p>
+        <div class="card-count">5 articles</div>
+      </a>
+      <a href="wallet-rewards.html" class="card" style="text-decoration:none; display:block;">
+        <div class="card-icon yellow" aria-hidden="true">💰</div>
+        <h3>Wallet &amp; rewards FAQ</h3>
+        <p>WIN token wallets, ERC-20 distribution, reward tracking, and common setup questions.</p>
+        <div class="card-count">10 articles</div>
+      </a>
+      <a href="security-risk.html" class="card" style="text-decoration:none; display:block;">
+        <div class="card-icon red" aria-hidden="true">🛡️</div>
+        <h3>Security &amp; risk</h3>
+        <p>How to verify the blockchain yourself, how to spot scams, and what risks to understand.</p>
+        <div class="card-count">7 articles</div>
+      </a>
+      <a href="support.html" class="card" style="text-decoration:none; display:block;">
+        <div class="card-icon teal" aria-hidden="true">🔧</div>
+        <h3>Support &amp; troubleshooting</h3>
+        <p>Common account issues, platform navigation, and how to reach the Connect support team.</p>
+        <div class="card-count">12 articles</div>
+      </a>
+    </div>
+  </div>
+</section>
+
+<!-- ── FAQ ── -->
+<section class="section" style="background: var(--bg);">
+  <div class="section-inner">
+    <div class="section-label">Common questions</div>
+    <h2 class="section-h2">Questions people actually search for</h2>
+    <div class="faq-list">
+
+      <div class="faq-item">
+        <button class="faq-question" aria-expanded="false">
+          What is Connect United and is it legitimate?
+          <span class="faq-toggle" aria-hidden="true">+</span>
+        </button>
+        <div class="faq-answer">
+          <p>Connect United is a blockchain education and participation platform built on the WIN Blockchain, a live Layer-1 network. Its blockchain is publicly verifiable at <a href="https://win.elevatescan.com" target="_blank" rel="noopener">win.elevatescan.com</a>. The ERC-20 token contract is auditable on <a href="https://etherscan.io/token/0xb10cb07ca2cdac77fbb5707f6690301f9d036f45" target="_blank" rel="noopener">Etherscan</a>. Governance documents are publicly available at <a href="https://win.node-governance.io" target="_blank" rel="noopener">win.node-governance.io</a>. It has 96 reviews on Trustpilot averaging 4.8 stars and 98% bullish sentiment from over 7,900 CoinMarketCap votes. This is not financial advice — always verify independently.</p>
+        </div>
+      </div>
+
+      <div class="faq-item">
+        <button class="faq-question" aria-expanded="false">
+          How does Learn2Earn work?
+          <span class="faq-toggle" aria-hidden="true">+</span>
+        </button>
+        <div class="faq-answer">
+          <p>Each week, a new lesson is posted covering blockchain, AI, or RWA topics. Members watch or read the lesson, complete a short quiz, take a related action step, and submit verification. Completion is recorded as an NFT on the WIN Blockchain — a permanent, on-chain credential. BlockBot node owners receive weekly lesson access. Droid owners receive monthly access. See the <a href="learn2earn.html">full Learn2Earn guide</a> for more detail.</p>
+        </div>
+      </div>
+
+      <div class="faq-item">
+        <button class="faq-question" aria-expanded="false">
+          What is a BlockBot and how is it different from a Droid?
+          <span class="faq-toggle" aria-hidden="true">+</span>
+        </button>
+        <div class="faq-answer">
+          <p>Both are node products that operate on the WIN Blockchain. BlockBots are the primary node tier — they receive weekly Learn2Earn access and full governance voting rights under the DGF Charter. Droids are an entry-level option with monthly lesson access. Both participate in the Proof of Action reward model. See the <a href="how-nodes-work.html">nodes guide</a> for a full comparison.</p>
+        </div>
+      </div>
+
+      <div class="faq-item">
+        <button class="faq-question" aria-expanded="false">
+          How do I verify the WIN Blockchain myself?
+          <span class="faq-toggle" aria-hidden="true">+</span>
+        </button>
+        <div class="faq-answer">
+          <p>Three independent sources let you verify without relying on Connect United's own website:</p>
+          <ul style="margin-top:10px;">
+            <li><a href="https://win.elevatescan.com" target="_blank" rel="noopener">win.elevatescan.com</a> — real-time block production, wallet counts, and transaction history on the WIN Layer-1</li>
+            <li><a href="https://etherscan.io/token/0xb10cb07ca2cdac77fbb5707f6690301f9d036f45" target="_blank" rel="noopener">Etherscan</a> — the ERC-20 token contract, holder count, and transfer history</li>
+            <li><a href="https://win.node-governance.io" target="_blank" rel="noopener">win.node-governance.io</a> — the Distributed Governance Framework Charter and governance records</li>
+          </ul>
+        </div>
+      </div>
+
+      <div class="faq-item">
+        <button class="faq-question" aria-expanded="false">
+          What is the WIN token supply and how are tokens distributed?
+          <span class="faq-toggle" aria-hidden="true">+</span>
+        </button>
+        <div class="faq-answer">
+          <p>WIN has a fixed maximum supply of 50 billion tokens — no additional issuance beyond this hard cap. Distribution occurs through Proof of Action, meaning participation in the network earns tokens rather than passive holding. Built-in halving mechanisms govern emission schedules; any changes require a governance vote by node owners through the DGF. The tokenomics are publicly documented and independently verifiable.</p>
+        </div>
+      </div>
+
+      <div class="faq-item">
+        <button class="faq-question" aria-expanded="false">
+          Is this site affiliated with Connect United?
+          <span class="faq-toggle" aria-hidden="true">+</span>
+        </button>
+        <div class="faq-answer">
+          <p>This site — connectunited.guide — is an independent educational resource. It is not the official Connect United platform, which is at <a href="https://connectunited.com" target="_blank" rel="noopener">connectunited.com</a>. All statistics and claims on this site link to primary sources (blockchain explorers, third-party review platforms, governance documents) so you can verify independently. Nothing here is financial advice.</p>
+        </div>
+      </div>
+
+    </div>
+  </div>
+</section>
+
+<!-- ── DISCLAIMER ── -->
+<div class="site-disclaimer">
+  <div class="disclaimer-inner">
+    <strong>Educational resource only.</strong> connectunited.guide is an independent informational site. Nothing on this site constitutes financial, investment, or legal advice. Participation in blockchain platforms involves risk, including the potential loss of funds. WIN token prices are volatile and not guaranteed to increase in value. Always verify information independently using the blockchain explorers and governance documents linked throughout this site before making any decisions.
+  </div>
+</div>
+
+<!-- ── FOOTER ── -->
+<footer class="site-footer">
+  <div class="footer-inner">
+    <div class="footer-grid">
+      <div class="footer-brand">
+        <div class="nav-logo" style="margin-bottom:0;">
+          <div class="nav-logomark" aria-hidden="true">C</div>
+          <span class="nav-wordmark">Connect United Guide</span>
+        </div>
+        <p>An independent educational resource about Connect United, the WIN Blockchain, and the Learn2Earn model. Not affiliated with or endorsed by Connect United.</p>
+      </div>
+      <div class="footer-col">
+        <h4>Learn</h4>
+        <a href="what-is-connect.html">What is Connect?</a>
+        <a href="how-nodes-work.html">How nodes work</a>
+        <a href="learn2earn.html">Learn2Earn</a>
+        <a href="governance.html">Governance</a>
+      </div>
+      <div class="footer-col">
+        <h4>Research</h4>
+        <a href="wallet-rewards.html">Wallet &amp; rewards</a>
+        <a href="security-risk.html">Security &amp; risk</a>
+        <a href="support.html">Support</a>
+      </div>
+      <div class="footer-col">
+        <h4>Verify</h4>
+        <a href="https://win.elevatescan.com" target="_blank" rel="noopener">WIN Block Explorer</a>
+        <a href="https://etherscan.io/token/0xb10cb07ca2cdac77fbb5707f6690301f9d036f45" target="_blank" rel="noopener">Etherscan (ERC-20)</a>
+        <a href="https://win.node-governance.io" target="_blank" rel="noopener">Governance Docs</a>
+        <a href="https://connectunited.com" target="_blank" rel="noopener">Official Platform</a>
+      </div>
+    </div>
+    <div class="footer-bottom">
+      <span>© 2026 connectunited.guide — Independent educational resource</span>
+      <div style="display:flex; gap:20px;">
+        <a href="disclaimer.html">Disclaimer</a>
+        <a href="privacy.html">Privacy</a>
+        <a href="https://connectunited.com" target="_blank" rel="noopener">Official site →</a>
+      </div>
+    </div>
+  </div>
+</footer>
+
+<script src="js/site.js"></script>
+</body>
+</html>
