@@ -1,0 +1,478 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="icon" href="data:image/svg+xml,<svg xmlns=%22http://www.w3.org/2000/svg%22 viewBox=%220 0 100 100%22><rect width=%22100%22 height=%22100%22 rx=%2215%22 fill=%22%231DB47A%22/><text y=%22.9em%22 font-size=%2270%22 x=%2215%22 fill=%22white%22 font-weight=%22bold%22>C</text></svg>">
+  <title>Crypto Glossary — Plain English Definitions for Beginners</title>
+  <meta name="description" content="Simple crypto definitions written like you're 10 years old. Node, blockchain, NFT, seed phrase, Layer 1, DGF, EVM, governance — no jargon, no fluff.">
+  <meta name="robots" content="index, follow">
+  <link rel="canonical" href="https://connectunited.guide/glossary">
+  <meta property="og:title" content="Crypto Glossary — Plain English, No Jargon">
+  <meta property="og:description" content="What is a node? What is a seed phrase? What is a block explorer? Simple answers, written like you're in 5th grade.">
+  <meta property="og:type" content="article">
+  <meta property="og:url" content="https://connectunited.guide/glossary">
+  <meta property="og:image" content="https://connectunited.guide/og-image.png">
+  <meta property="og:image:width" content="1200">
+  <meta property="og:image:height" content="630">
+  <meta name="twitter:card" content="summary_large_image">
+  <meta name="twitter:site" content="@connect_win">
+  <meta name="twitter:image" content="https://connectunited.guide/og-image.png">
+
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "Article",
+    "headline": "Crypto Glossary — Plain English Definitions for Beginners",
+    "description": "Simple definitions for common blockchain and crypto terms. Written for people who are new to the space.",
+    "url": "https://connectunited.guide/glossary",
+    "datePublished": "2026-06-17",
+    "dateModified": "2026-06-17",
+    "author": { "@type": "Organization", "name": "Connect United Guide" },
+    "publisher": { "@type": "Organization", "name": "Connect United Guide", "url": "https://connectunited.guide" }
+  }
+  </script>
+
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "DefinedTermSet",
+    "name": "Crypto and Blockchain Glossary",
+    "url": "https://connectunited.guide/glossary",
+    "hasDefinedTerm": [
+      {"@type": "DefinedTerm", "name": "Blockchain", "description": "A public record book that thousands of computers keep a copy of at the same time. Nobody owns it. Nobody can secretly change it. Everyone can read it."},
+      {"@type": "DefinedTerm", "name": "Node", "description": "A computer that participates in a blockchain network. It helps keep the network running and earns rewards for doing so."},
+      {"@type": "DefinedTerm", "name": "Layer 1", "description": "The main blockchain itself — the foundation everything else is built on. Bitcoin and the WIN Blockchain are both Layer 1 networks."},
+      {"@type": "DefinedTerm", "name": "NFT", "description": "A digital item that only one person can own at a time, tracked on a blockchain. Like a certificate of ownership, but recorded on the chain."},
+      {"@type": "DefinedTerm", "name": "Seed Phrase", "description": "A list of 12 or 24 random words that is the master key to your crypto wallet. Anyone with these words controls your wallet. Guard it like cash."},
+      {"@type": "DefinedTerm", "name": "Block Explorer", "description": "A website that lets you read a blockchain like a public ledger. You can look up any wallet, any transaction, any block — all public, all free."},
+      {"@type": "DefinedTerm", "name": "Governance", "description": "The process of making decisions about how a blockchain network runs. On the WIN Blockchain, node owners vote on important decisions."},
+      {"@type": "DefinedTerm", "name": "DGF", "description": "Distributed Governance Framework — the rulebook for how voting works on the WIN Blockchain. It decides what can be voted on and how decisions get made."},
+      {"@type": "DefinedTerm", "name": "EVM", "description": "Ethereum Virtual Machine — the system that runs programs on the Ethereum blockchain. Many blockchains are compatible with it, meaning tools built for Ethereum work on them too."}
+    ]
+  }
+  </script>
+
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "BreadcrumbList",
+    "itemListElement": [
+      {"@type": "ListItem", "position": 1, "name": "Home", "item": "https://connectunited.guide/"},
+      {"@type": "ListItem", "position": 2, "name": "Glossary", "item": "https://connectunited.guide/glossary"}
+    ]
+  }
+  </script>
+
+  <link rel="stylesheet" href="/style.css">
+
+  <style>
+    /* Glossary-specific styles */
+    .glossary-alpha-nav {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 6px;
+      margin-bottom: 36px;
+    }
+    .alpha-btn {
+      background: var(--surface);
+      border: 1px solid var(--border);
+      border-radius: var(--radius-sm);
+      padding: 5px 11px;
+      font-size: 13px;
+      font-weight: 600;
+      color: var(--text-muted);
+      text-decoration: none;
+      transition: all 0.15s;
+    }
+    .alpha-btn:hover, .alpha-btn.has-terms {
+      border-color: var(--green-border);
+      color: var(--green);
+      background: var(--green-light);
+      text-decoration: none;
+    }
+    .glossary-term {
+      padding: 28px 0;
+      border-bottom: 1px solid var(--border-faint);
+      display: grid;
+      grid-template-columns: 220px 1fr;
+      gap: 32px;
+      align-items: start;
+    }
+    .term-word {
+      font-size: 18px;
+      font-weight: 700;
+      color: var(--navy);
+      letter-spacing: -0.3px;
+      padding-top: 2px;
+    }
+    .term-tag {
+      display: inline-block;
+      background: var(--green-light);
+      color: var(--green);
+      font-size: 10px;
+      font-weight: 700;
+      padding: 2px 7px;
+      border-radius: 4px;
+      text-transform: uppercase;
+      letter-spacing: 0.5px;
+      margin-top: 6px;
+    }
+    .term-body h3 {
+      font-size: 15px;
+      font-weight: 600;
+      color: var(--navy);
+      margin-bottom: 6px;
+    }
+    .term-simple {
+      font-size: 16px;
+      color: var(--text-mid);
+      line-height: 1.7;
+      margin-bottom: 10px;
+    }
+    .term-detail {
+      font-size: 13px;
+      color: var(--text-muted);
+      line-height: 1.7;
+      margin-bottom: 0;
+    }
+    .term-connect {
+      margin-top: 10px;
+      font-size: 13px;
+      color: var(--text-muted);
+      background: var(--green-light);
+      border-left: 3px solid var(--green);
+      padding: 8px 12px;
+      border-radius: 0 var(--radius-sm) var(--radius-sm) 0;
+    }
+    .term-connect strong { color: var(--navy); }
+    .alpha-section-header {
+      font-size: 28px;
+      font-weight: 700;
+      color: var(--green);
+      padding: 32px 0 8px;
+      border-bottom: 2px solid var(--green-border);
+      margin-bottom: 0;
+      letter-spacing: -0.5px;
+    }
+    @media (max-width: 700px) {
+      .glossary-term {
+        grid-template-columns: 1fr;
+        gap: 8px;
+      }
+      .term-simple { font-size: 15px; }
+    }
+  </style>
+</head>
+<body>
+
+<nav class="site-nav">
+  <div class="nav-inner">
+    <a href="/" class="nav-logo"><div class="nav-logomark">C</div><span class="nav-wordmark">Connect United Guide</span></a>
+    <div class="nav-links">
+      <a href="/what-is-connect">What is Connect?</a>
+      <a href="/how-nodes-work">Nodes</a>
+      <a href="/governance">Governance</a>
+      <a href="/learn2earn">Learn2Earn</a>
+      <a href="/glossary">Glossary</a>
+      <a href="/wallet-rewards">Wallet &amp; Rewards</a>
+      <a href="/security-risk">Security</a>
+      <a href="https://support.connectunited.com" target="_blank" rel="noopener">Support</a>
+    </div>
+    <a href="https://connectunited.com" class="nav-cta" target="_blank" rel="noopener">Visit Platform →</a>
+    <button class="nav-mobile-toggle">☰</button>
+  </div>
+</nav>
+
+<div class="breadcrumb">
+  <div class="breadcrumb-inner">
+    <a href="/">Home</a><span>›</span><span>Glossary</span>
+  </div>
+</div>
+
+<div class="page-hero">
+  <div class="page-hero-inner">
+    <div class="page-hero-label">Plain English · No Jargon</div>
+    <h1>Crypto glossary — explained like you're in 5th grade</h1>
+    <p>Every term on this page is written for someone who has never owned crypto before. No assumed knowledge. No jargon explaining other jargon. Just plain English, with a note on how each term connects to Connect United where relevant.</p>
+  </div>
+</div>
+
+<nav class="cluster-nav">
+  <div class="cluster-nav-inner">
+    <a href="#B" class="cluster-tab">B</a>
+    <a href="#D" class="cluster-tab">D</a>
+    <a href="#E" class="cluster-tab">E</a>
+    <a href="#G" class="cluster-tab">G</a>
+    <a href="#L" class="cluster-tab">L</a>
+    <a href="#N" class="cluster-tab">N</a>
+    <a href="#S" class="cluster-tab">S</a>
+    <a href="#V" class="cluster-tab">V</a>
+    <a href="#W" class="cluster-tab">W</a>
+  </div>
+</nav>
+
+<section class="section" style="background: var(--surface);">
+  <div class="section-inner">
+    <div class="article-body" style="max-width: 100%;">
+
+      <!-- B -->
+      <div id="B" class="alpha-section-header">B</div>
+
+      <div class="glossary-term">
+        <div>
+          <div class="term-word">Bitcoin</div>
+          <div class="term-tag">Digital currency</div>
+        </div>
+        <div class="term-body">
+          <p class="term-simple">The first cryptocurrency. Think of it like digital gold — there's a fixed amount that will ever exist, people trade it, and no single person or company controls it.</p>
+          <p class="term-detail">Bitcoin was created in 2009. It runs on its own blockchain and has a maximum supply of 21 million coins. It was the first proof that a currency could exist without a bank or government — just math and a network of computers agreeing on the rules.</p>
+        </div>
+      </div>
+
+      <div class="glossary-term">
+        <div>
+          <div class="term-word">Blockchain</div>
+          <div class="term-tag">Core concept</div>
+        </div>
+        <div class="term-body">
+          <p class="term-simple">Imagine a notebook that records every transaction ever made — and thousands of people have an identical copy. Nobody can secretly change their copy without everyone else noticing. That notebook is a blockchain.</p>
+          <p class="term-detail">Each "block" contains a batch of recent transactions. Each block is linked to the one before it using a code called a hash. If you change anything in an old block, it breaks the chain — and every computer on the network immediately knows something is wrong. This makes blockchains extremely difficult to tamper with.</p>
+          <div class="term-connect"><strong>On Connect United:</strong> The WIN Blockchain is a live Layer-1 blockchain. You can read every transaction on it at <a href="https://win.elevatescan.com" target="_blank" rel="noopener">win.elevatescan.com</a>.</div>
+        </div>
+      </div>
+
+      <div class="glossary-term">
+        <div>
+          <div class="term-word">Block Explorer</div>
+          <div class="term-tag">Tool</div>
+        </div>
+        <div class="term-body">
+          <p class="term-simple">A website that lets you read a blockchain like a public record book. You can look up any wallet, any transaction, any block — all free, no account needed.</p>
+          <p class="term-detail">Think of it like a public library where the book is the entire history of every transaction on a blockchain. Block explorers are one of the most important DYOR tools because they let you verify claims without trusting anyone's word. If a project says "look, we have 33,000 wallets" — a block explorer lets you check that yourself in 30 seconds.</p>
+          <div class="term-connect"><strong>On Connect United:</strong> The WIN Blockchain explorer is at <a href="https://win.elevatescan.com" target="_blank" rel="noopener">win.elevatescan.com</a>. The Ethereum explorer for the WIN ERC-20 token is <a href="https://etherscan.io/token/0xb10cb07ca2cdac77fbb5707f6690301f9d036f45" target="_blank" rel="noopener">Etherscan</a>. The official setup guide is at <a href="https://support.connectunited.com/hc/en-us/articles/50235897840276-Block-Explorer" target="_blank" rel="noopener">support.connectunited.com</a>.</div>
+        </div>
+      </div>
+
+      <!-- D -->
+      <div id="D" class="alpha-section-header">D</div>
+
+      <div class="glossary-term">
+        <div>
+          <div class="term-word">DGF</div>
+          <div class="term-tag">Connect United</div>
+        </div>
+        <div class="term-body">
+          <p class="term-simple">The rulebook for voting on the WIN Blockchain. DGF stands for Distributed Governance Framework. It decides what people can vote on and how those votes work.</p>
+          <p class="term-detail">Think of it like the constitution for the WIN Blockchain community. It defines which decisions require a vote, how many people need to vote for it to count, and how the result gets recorded. Node owners are the voters. The DGF makes it so no single person — including Connect United's management — can unilaterally change how the network works.</p>
+          <div class="term-connect"><strong>On Connect United:</strong> The full DGF Charter is public at <a href="https://win.node-governance.io" target="_blank" rel="noopener">win.node-governance.io</a>. You can read it without creating an account.</div>
+        </div>
+      </div>
+
+      <div class="glossary-term">
+        <div>
+          <div class="term-word">Digital Asset</div>
+          <div class="term-tag">Core concept</div>
+        </div>
+        <div class="term-body">
+          <p class="term-simple">Anything valuable that exists digitally and can be owned, transferred, or traded — but isn't physical. Crypto tokens, NFTs, and on-chain credentials are all digital assets.</p>
+          <p class="term-detail">The key property of a blockchain-based digital asset is that ownership is recorded on a public ledger that no single company controls. This is different from, say, points in a loyalty program — those exist in a company's database and can be taken away. A digital asset in your wallet belongs to whoever holds the private key, not to the platform.</p>
+          <div class="term-connect"><strong>On Connect United:</strong> WIN tokens and Learn2Earn NFT credentials are digital assets. They live in your wallet — Connect United cannot access or take them.</div>
+        </div>
+      </div>
+
+      <!-- E -->
+      <div id="E" class="alpha-section-header">E</div>
+
+      <div class="glossary-term">
+        <div>
+          <div class="term-word">Ethereum</div>
+          <div class="term-tag">Blockchain</div>
+        </div>
+        <div class="term-body">
+          <p class="term-simple">The second-largest blockchain after Bitcoin. Unlike Bitcoin, Ethereum was built to run programs — not just record payments. Most crypto tokens and NFTs live on Ethereum or blockchains that work like it.</p>
+          <p class="term-detail">Ethereum introduced "smart contracts" — self-executing programs that run on the blockchain with no middleman. This made it possible to build decentralized applications (dApps), issue tokens, and create NFTs. Because so many tools were built for Ethereum, many other blockchains were designed to be compatible with it — this compatibility is called EVM.</p>
+          <div class="term-connect"><strong>On Connect United:</strong> WIN tokens exist on the WIN Blockchain natively, but are also available as an ERC-20 token on Ethereum, accessible through standard Ethereum wallets like MetaMask. <a href="https://etherscan.io/token/0xb10cb07ca2cdac77fbb5707f6690301f9d036f45" target="_blank" rel="noopener">View on Etherscan →</a></div>
+        </div>
+      </div>
+
+      <div class="glossary-term">
+        <div>
+          <div class="term-word">EVM</div>
+          <div class="term-tag">Technical</div>
+        </div>
+        <div class="term-body">
+          <p class="term-simple">EVM stands for Ethereum Virtual Machine. It's the engine that runs programs on Ethereum. Many other blockchains were built to run the same engine — which means tools built for Ethereum work on them too.</p>
+          <p class="term-detail">Think of it like a power adapter standard. If a device is designed for the same plug format, you can use it anywhere that supports that format. Because so many wallets, explorers, and developer tools were built for EVM, blockchains that are "EVM-compatible" get instant access to that whole ecosystem of tools — including MetaMask, Etherscan, and thousands of dApps.</p>
+          <div class="term-connect"><strong>On Connect United:</strong> The WIN ERC-20 token is compatible with Ethereum wallets and tools because it runs on the Ethereum network via a bridge. You can use MetaMask to hold it and Etherscan to verify it.</div>
+        </div>
+      </div>
+
+      <!-- G -->
+      <div id="G" class="alpha-section-header">G</div>
+
+      <div class="glossary-term">
+        <div>
+          <div class="term-word">Governance</div>
+          <div class="term-tag">Core concept</div>
+        </div>
+        <div class="term-body">
+          <p class="term-simple">The process of making decisions about how something is run. In crypto, governance usually means token holders or node owners voting on changes to a blockchain network.</p>
+          <p class="term-detail">Most companies are governed top-down — a CEO or board makes decisions. Blockchain governance aims to distribute that power to the people who actually use and run the network. When it works well, no single person can change the rules without community agreement. When it's poorly designed, "governance" is just a word on a whitepaper with no actual voting happening.</p>
+          <div class="term-connect"><strong>On Connect United:</strong> The WIN Blockchain uses the Distributed Governance Framework (DGF). Node owners vote on binding decisions. You can audit past votes yourself at <a href="https://win.node-governance.io" target="_blank" rel="noopener">win.node-governance.io</a>. <a href="/governance">Full governance guide →</a></div>
+        </div>
+      </div>
+
+      <!-- L -->
+      <div id="L" class="alpha-section-header">L</div>
+
+      <div class="glossary-term">
+        <div>
+          <div class="term-word">Layer 1</div>
+          <div class="term-tag">Technical</div>
+        </div>
+        <div class="term-body">
+          <p class="term-simple">The base-level blockchain — the foundation that everything else builds on. Bitcoin and Ethereum are Layer 1 networks. So is the WIN Blockchain.</p>
+          <p class="term-detail">Think of Layer 1 as the roads. Layer 2 networks are like express lanes built on top of those roads to make things faster or cheaper. A Layer 1 blockchain operates independently — it doesn't depend on another chain to exist. This matters for longevity and security: if Layer 1 works, the system works.</p>
+          <div class="term-connect"><strong>On Connect United:</strong> The WIN Blockchain is a Layer-1 network — its own independent blockchain, not built on top of Ethereum. Block production is verifiable at <a href="https://win.elevatescan.com" target="_blank" rel="noopener">win.elevatescan.com</a>.</div>
+        </div>
+      </div>
+
+      <!-- N -->
+      <div id="N" class="alpha-section-header">N</div>
+
+      <div class="glossary-term">
+        <div>
+          <div class="term-word">NFT</div>
+          <div class="term-tag">Digital asset</div>
+        </div>
+        <div class="term-body">
+          <p class="term-simple">NFT stands for Non-Fungible Token. "Non-fungible" just means one-of-a-kind — or at least uniquely owned. An NFT is a digital item recorded on a blockchain so only one person owns it at a time.</p>
+          <p class="term-detail">Most people know NFTs as digital art or collectibles. But they can represent anything that benefits from verified ownership — a certificate, a credential, a ticket, a title deed. The key is that the ownership record lives on a public blockchain, not in a company's database. Your NFT belongs to your wallet, not to the platform that issued it.</p>
+          <div class="term-connect"><strong>On Connect United:</strong> Every completed Learn2Earn cycle produces an NFT credential recorded on the WIN Blockchain — a verifiable, permanent record of your participation that belongs to your wallet. <a href="/learn2earn">How Learn2Earn works →</a></div>
+        </div>
+      </div>
+
+      <div class="glossary-term">
+        <div>
+          <div class="term-word">Node</div>
+          <div class="term-tag">Core concept</div>
+        </div>
+        <div class="term-body">
+          <p class="term-simple">A computer that participates in keeping a blockchain running. Nodes talk to each other, share transaction records, and help make sure nobody cheats.</p>
+          <p class="term-detail">The more nodes a blockchain has, the harder it is to attack or take down — because there's no single computer to target. In some blockchains, running a node is highly technical and expensive. In others, the term is used more broadly to describe a participation product that gives you access to the network and its rewards.</p>
+          <div class="term-connect"><strong>On Connect United:</strong> BlockBot and Droid are node products on the WIN Blockchain. Your node must be online and actively hosted to earn rewards — an offline node earns nothing. Hosting options include <a href="https://codexblockchain.com/" target="_blank" rel="noopener">Codex</a> (managed) or self-hosting on a VPS. <a href="/how-nodes-work">Full node guide →</a></div>
+        </div>
+      </div>
+
+      <!-- S -->
+      <div id="S" class="alpha-section-header">S</div>
+
+      <div class="glossary-term">
+        <div>
+          <div class="term-word">Seed Phrase</div>
+          <div class="term-tag">Security</div>
+        </div>
+        <div class="term-body">
+          <p class="term-simple">A list of 12 or 24 random words that is the master key to your crypto wallet. Anyone who has these words can access everything in your wallet. Treat it like a combination to a safe full of cash.</p>
+          <p class="term-detail">When you set up a crypto wallet, it generates a seed phrase. This phrase is the only way to recover your wallet if you lose access. It is not stored anywhere by anyone — not by the wallet app, not by the blockchain. If you lose it, your wallet is gone. If someone else gets it, your wallet is theirs. Write it down on paper. Store it somewhere safe and offline. Never photograph it. Never type it into a website or app that asks for it — that is a scam.</p>
+          <div class="term-connect"><strong>On Connect United:</strong> WIN wallets are non-custodial — Connect United does not hold your seed phrase. They cannot recover your wallet if you lose access. Your seed phrase is your responsibility from day one. <a href="/wallet-rewards#non-custodial">What non-custodial means →</a></div>
+        </div>
+      </div>
+
+      <!-- V -->
+      <div id="V" class="alpha-section-header">V</div>
+
+      <div class="glossary-term">
+        <div>
+          <div class="term-word">VPS</div>
+          <div class="term-tag">Technical</div>
+        </div>
+        <div class="term-body">
+          <p class="term-simple">VPS stands for Virtual Private Server. It's a computer you rent on the internet that runs 24/7, even when your personal computer is off. Used to keep blockchain nodes online continuously.</p>
+          <p class="term-detail">Think of it like renting a room in a data center. You get a slice of a powerful computer that's always on, always connected, and professionally maintained. Many blockchain node operators use a VPS because a node that goes offline stops earning. You can manage a VPS yourself if you're technical, or use a managed service that handles it for you.</p>
+          <div class="term-connect"><strong>On Connect United:</strong> Node operators who don't want to self-host can use <a href="https://codexblockchain.com/" target="_blank" rel="noopener">Codex</a>, a managed hosting service in the Connect ecosystem that keeps your node online without you managing the server yourself.</div>
+        </div>
+      </div>
+
+      <!-- W -->
+      <div id="W" class="alpha-section-header">W</div>
+
+      <div class="glossary-term">
+        <div>
+          <div class="term-word">Wallet</div>
+          <div class="term-tag">Core concept</div>
+        </div>
+        <div class="term-body">
+          <p class="term-simple">A crypto wallet is an app or device that holds your private key — the password that proves you own your digital assets. It doesn't actually "hold" your crypto the way a physical wallet holds cash. Your crypto lives on the blockchain; your wallet just proves you own it.</p>
+          <p class="term-detail">There are two types: custodial (a company holds your key — like a bank) and non-custodial (you hold your own key). Non-custodial wallets give you full control but full responsibility. If you lose your seed phrase, there's no password reset. Common non-custodial wallets include MetaMask (for Ethereum/EVM) and the wallet apps used for specific blockchain networks.</p>
+          <div class="term-connect"><strong>On Connect United:</strong> WIN tokens are held in non-custodial wallets. Connect United has no access to your wallet or your private key. <a href="/wallet-rewards">Wallet and rewards guide →</a></div>
+        </div>
+      </div>
+
+    </div>
+
+    <!-- Missing a term? -->
+    <div class="callout" style="margin-top: 48px; max-width: 660px;">
+      <strong>Missing a term?</strong> If you came across a crypto phrase you don't understand and it's not here, the <a href="https://support.connectunited.com/hc/en-us/articles/50236050102036-Connect-Reference-Guide" target="_blank" rel="noopener">official Connect Reference Guide</a> covers platform-specific terminology. For general crypto terms, the <a href="https://connectunitedreviews.com/#blog-post-dyor" target="_blank" rel="noopener">DYOR guide</a> at ConnectUnitedReviews is also a good starting point.
+    </div>
+
+  </div>
+</section>
+
+<div class="trust-band">
+  <div class="trust-inner">
+    <div class="trust-item"><div class="trust-dot"></div><a href="/what-is-connect" style="color:var(--text-mid);">What is Connect United? →</a></div>
+    <div class="trust-item"><div class="trust-dot"></div><a href="/how-nodes-work" style="color:var(--text-mid);">How nodes work →</a></div>
+    <div class="trust-item"><div class="trust-dot"></div><a href="/is-connect-united-a-scam" style="color:var(--text-mid);">DYOR guide →</a></div>
+    <div class="trust-item"><div class="trust-dot"></div><a href="/wallet-rewards" style="color:var(--text-mid);">Wallet &amp; rewards →</a></div>
+  </div>
+</div>
+
+<div class="site-disclaimer">
+  <div class="disclaimer-inner">
+    <strong>Educational resource only.</strong> connectunited.guide is an independent informational site. Nothing here is financial or investment advice. Always verify independently before making any decisions.
+  </div>
+</div>
+
+<footer class="site-footer">
+  <div class="footer-inner">
+    <div class="footer-grid">
+      <div class="footer-brand">
+        <div class="nav-logo" style="margin-bottom:0;"><div class="nav-logomark">C</div><span class="nav-wordmark">Connect United Guide</span></div>
+        <p>An independent educational resource about Connect United and the WIN Blockchain. Not affiliated with or endorsed by Connect United.</p>
+      </div>
+      <div class="footer-col">
+        <h4>Learn</h4>
+        <a href="/what-is-connect">What is Connect?</a>
+        <a href="/how-nodes-work">How nodes work</a>
+        <a href="/learn2earn">Learn2Earn</a>
+      <a href="/glossary">Glossary</a>
+        <a href="/governance">Governance</a>
+        <a href="/glossary">Glossary</a>
+      </div>
+      <div class="footer-col">
+        <h4>Research</h4>
+        <a href="/wallet-rewards">Wallet &amp; rewards</a>
+        <a href="/security-risk">Security &amp; risk</a>
+        <a href="/is-connect-united-a-scam">Is it a scam?</a>
+        <a href="https://support.connectunited.com" target="_blank" rel="noopener">Official Connect Support</a>
+      </div>
+      <div class="footer-col">
+        <h4>Verify</h4>
+        <a href="https://win.elevatescan.com" target="_blank" rel="noopener">WIN Block Explorer</a>
+        <a href="https://etherscan.io/token/0xb10cb07ca2cdac77fbb5707f6690301f9d036f45" target="_blank" rel="noopener">Etherscan (ERC-20)</a>
+        <a href="https://win.node-governance.io" target="_blank" rel="noopener">Governance Docs</a>
+        <a href="https://connectunited.com" target="_blank" rel="noopener">Official Platform</a>
+      </div>
+    </div>
+    <div class="footer-bottom">
+      <span>© 2026 connectunited.guide — Independent educational resource</span>
+      <div style="display:flex; gap:20px;"><a href="/disclaimer">Disclaimer</a><a href="/privacy">Privacy</a><a href="https://connectunited.com" target="_blank" rel="noopener">Official site →</a></div>
+    </div>
+  </div>
+</footer>
+
+<script src="/site.js"></script>
+</body>
+</html>
